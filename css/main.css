@@ -10,11 +10,14 @@ body {
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(rgb(255, 166, 0), rgb(243, 243, 120));
 }
 
 h1 {
     color: rgb(233, 58, 4);
-    font-family: Verdana;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-decoration: underline rgb(160, 66, 12);
 }
 
 .Site-content {
@@ -41,4 +44,32 @@ h1 {
 img {
     width: 90%;
     max-width: 600px;
+}
+
+label {
+    color: rgb(114, 27, 1);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid red;
+  }
+
+button {
+    background-color: #ec9751;
+    border: none;
+    color: rgb(204, 38, 9);
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+p {
+    color: rgb(0, 0, 0);
 }
